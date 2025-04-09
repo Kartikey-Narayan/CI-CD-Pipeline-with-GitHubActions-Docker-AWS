@@ -40,9 +40,7 @@ const Home = () => {
    // JSX for the component
   return (
     <div className='home-container'>
-      <h1 className='home-text'>
-        🚀 Cloud Deployer - Full-Stack CI/CD Pipeline with GitHub Actions, Docker & AWS 🌐
-      </h1>
+      <h1 className='home-text'>🚀 Cloud Deployer – Full-Stack CI/CD Pipeline with GitHub Actions ⚙️, Docker 🐳 & AWS ☁️</h1>
       {
         error 
         ? 
