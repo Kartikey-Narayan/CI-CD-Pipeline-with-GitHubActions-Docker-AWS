@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div className='home-container'>
       <h1 className='home-text'>
-        🚀 Cloud Deployer - Full-Stack CI/CD Pipeline with GitHub Actions, Docker & AWS
+        🚀 Cloud Deployer - Full-Stack CI/CD Pipeline with GitHub Actions, Docker & AWS 🌐
       </h1>
       {
         error 

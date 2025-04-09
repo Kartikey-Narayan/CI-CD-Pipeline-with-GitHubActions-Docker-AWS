@@ -11,7 +11,7 @@ const PORT = 3000;
 app.get("/api", (req, res) => {
   res.status(200).json({
     status: "✅ OK",
-    message: "🚀 Hello from Node.js App!"
+    message: "🚀 Hello from Node.js App! 🌐"
   });
 });
 
@@ -19,7 +19,7 @@ app.get("/api", (req, res) => {
 app.get("/api/message", (req, res) => {
     res.status(200).json({
       status: "✅ OK",
-      message: "🚀 Hello from Node.js backend for Cloud Deployer App!"
+      message: "🚀 Hello from Node.js backend for Cloud Deployer App! 🌐"
     });
   });
 

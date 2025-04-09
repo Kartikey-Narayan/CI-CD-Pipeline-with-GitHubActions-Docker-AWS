@@ -4,7 +4,7 @@ services:
   cloud-deployer-backend:
     image: kartikeynarayan/cloud-deployer-backend:latest         # 🔄 Use the image built from Dockerfile (tag: latest)
     build:
-      context: ./                                         # 📁 Build context: points to the Node.js app directory
+      context: ./                                                # 📁 Build context: points to the Node.js app directory
       dockerfile: Dockerfile                                     # 🐳 Dockerfile to use for building the image
     container_name: cloud-deployer-backend                       # 🏷️ Name of the container
     ports:
