@@ -1,0 +1,73 @@
+/* 
+    Styles for the Slug section 
+*/
+.home-container {
+    gap: 15px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.home-text {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+.home-error {
+    color: red;
+    font-size: 22px;
+    font-weight: 400;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+.home-subtext {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+/* 
+    Media queries for responsiveness 
+*/
+@media screen and (max-width: 768px) {
+    /* For tablet screens */
+    .home-text {
+        font-size: 22px;
+    }
+    
+    .home-error {
+        font-size: 20px;
+    }
+    
+    .home-subtext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* For mobile screens */
+    .home-text {
+        font-size: 20px;
+    }
+    
+    .home-error {
+        font-size: 18px;
+    }
+    
+    .home-subtext {
+        font-size: 18px;
+    }
+}

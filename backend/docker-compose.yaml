@@ -1,0 +1,19 @@
+services:
+
+  # 🚀 Node.js Application Service
+  cloud-deployer-backend:
+    image: kartikeynarayan/cloud-deployer-backend:latest         # 🔄 Use the image built from Dockerfile (tag: latest)
+    build:
+      context: ./                                         # 📁 Build context: points to the Node.js app directory
+      dockerfile: Dockerfile                                     # 🐳 Dockerfile to use for building the image
+    container_name: cloud-deployer-backend                       # 🏷️ Name of the container
+    ports:
+      - "3000:3000"                                              # 🌐 Map host port 3000 to container port 3000
+    networks:
+      - application                                              # 🌐 Connect to the custom Docker network
+    restart: always                                              # 🔄 Always restart the container unless explicitly stopped
+
+# 🌐 Define a custom Docker bridge network for communication between services
+networks:
+  application:
+    driver: bridge                                               # 🚧 Use the bridge driver for network isolation and service discovery

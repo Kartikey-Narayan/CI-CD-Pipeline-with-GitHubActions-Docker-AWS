@@ -1,0 +1,27 @@
+{
+  "name": "cloud-deployer-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for Cloud Deployer - Full-Stack CI/CD Pipeline with GitHub Actions, Docker & AWS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express",
+    "docker",
+    "ci/cd",
+    "devops",
+    "aws",
+    "ec2",
+    "github-actions",
+    "cloud-deployment"
+  ],
+  "author": "Kartikey Narayan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

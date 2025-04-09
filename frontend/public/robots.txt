@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://clouddeployer.kartikeynarayan.in/sitemap.xml
